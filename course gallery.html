@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Somali Course </title> 
+    <link rel="stylesheet" href="style videos.css">  
+    <link rel="stylesheet" href="coursegallery.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
+ 
+</head>
+<body> 
+     
+    
+      
+     <h3 class="heading">Video gallary</h3>  
+      
+     <div class="container"> 
+         <div class="main-video"> 
+             <div class="video"> 
+              <video src="video/vid1.mp4" controls muted autoplay></video> 
+              <h3 class="title">01.video title goes here</h3>   
+             </div>
+         </div> 
+      <div class="video-list"> 
+          <div class="vid active"> 
+            <video src="video/vid1.mp4"  muted ></video> 
+              <h3 class="title">01.video title goes here</h3>  
+          </div> 
+          <div class="vid"> 
+            <video src="video/vid6.mp4"  muted ></video> 
+              <h3 class="title">01.video title goes here</h3>  
+          </div>  
+          
+          <div class="vid"> 
+            <video src="video/vid4.mp4"  muted ></video> 
+              <h3 class="title">01.video title goes here</h3>  
+          </div> 
+          <div class="vid"> 
+            <video src="video/vid5.mp4"  muted ></video> 
+              <h3 class="title">01.video title goes here</h3>  
+          </div> 
+          <div class="vid"> 
+            <video src="video/vid6.mp4"  muted ></video> 
+              <h3 class="title">01.video title goes here</h3>  
+          </div> 
+     
+
+      
+      
+   <script> 
+
+ let listvideo = document.querySelectorAll('.video-list.vid'); 
+ let mainvideo = document.querySelector('.main-video video'); 
+ let title = document.querySelector('.main-video .title'); 
+   
+ listvideo.forEach(VIDEO =>{ 
+    video.onclick = () =>{ 
+        listvideo.forEach(vid => vid.classList.remove('active')); 
+        video.classList.add('active');
+         if(video.classlist.contains('active')){ 
+             let src = video .c
+         };
+    };
+ });
+  
+  </script>   
+    
+     
+</body> 
+</html> 
+ 
+ 
+  
+ 
+ 
